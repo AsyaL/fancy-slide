@@ -1,0 +1,56 @@
+/* slider css */  
+#wrap {
+    display: none;
+    opacity: 0.8;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 16px;
+    background-color: rgba(1, 1, 1, 0.725);
+    z-index: 100;
+    overflow: auto;
+}
+#window {
+    width: 400px;
+    height: 350px;
+    margin: 10% auto;
+    display: none;
+    background: #f0f0f0;
+    z-index: 200;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 20px;
+    border: 2px solid #8fa09b;
+}
+#window .img_in_slider {
+    width: 100%;
+    height: 310px;
+    border: 1px solid #8fa09b;
+}
+.but_close {
+    right: -10px;
+    top: -10px;
+    cursor: pointer;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+}
+.but_next,
+.but_back {
+    right: 15px;
+    bottom: 15px;
+    cursor: pointer;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+}
+.but_back {
+    right: 47px;
+}
+	
+	
